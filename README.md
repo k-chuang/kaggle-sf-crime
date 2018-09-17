@@ -29,6 +29,6 @@ Dataset contains incidents derived from SFPD Crime Incident Reporting system. Th
 - **X** - Longitude
 - **Y** - Latitude
 
-
-[Kaggle Source](https://www.kaggle.com/c/sf-crime/data)
-[Original Source](https://data.sfgov.org/Public-Safety/-Change-Notice-Police-Department-Incidents/tmnf-yvry/about)
+The dataset can be found in the following links:
+- [Kaggle Source](https://www.kaggle.com/c/sf-crime/data)
+- [Original Source](https://data.sfgov.org/Public-Safety/-Change-Notice-Police-Department-Incidents/tmnf-yvry/about)
