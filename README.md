@@ -5,7 +5,9 @@ An end to end project to explore, visualize, and analyze San Francisco crime dat
 ## Installation
 All Python packages required for this project are located in the [requirements.txt](https://github.com/k-chuang/kaggle-sf-crime/blob/master/requirements.txt) and can be installed via the command below.
 
-`pip install -r requirements.txt`
+```bash
+$ pip install -r requirements.txt
+```
 
 ## Files
 
@@ -13,7 +15,7 @@ All Python packages required for this project are located in the [requirements.t
 - [kaggle-sf-crime-exploration.ipynb](https://github.com/k-chuang/kaggle-sf-crime/blob/master/kaggle-sf-crime-exploration.ipynb) - jupyter notebook with initial data explorations & visualizations of SF crime
 
 **Data Mining & Machine Learning**
-- [kaggle-sf-crime-project.ipynb](https://github.com/k-chuang/kaggle-sf-crime/blob/master/kaggle-sf-crime-project.ipynb) - jupyter notebook with end to end data science workflow, such as data preprocessing, feature engineering, building baseline models, model selection, hyperparameter tuning, and Kaggle submission.
+- [kaggle-sf-crime-prediction.ipynb](https://github.com/k-chuang/kaggle-sf-crime/blob/master/kaggle-sf-crime-prediction.ipynb) - jupyter notebook with end to end data science workflow, such as data preprocessing, feature engineering, building baseline models, model selection, hyperparameter tuning, and Kaggle submission.
 
 **Hyperparameter Tuning Results**
 - [cv_results](https://github.com/k-chuang/kaggle-sf-crime/blob/master/cv_results) - folder containing the hyperparameter tuning results (CV scores (mean & standard deviation) and hyperparameters) at each iteration of Bayesian Optimization.
@@ -35,6 +37,10 @@ Dataset contains incidents derived from SFPD Crime Incident Reporting system. Th
 The source of the dataset can be found in the following links:
 - [Kaggle Source](https://www.kaggle.com/c/sf-crime/data)
 - [Original Source](https://data.sfgov.org/Public-Safety/-Change-Notice-Police-Department-Incidents/tmnf-yvry/about)
+
+## Kaggle Submission
+
+Achieved a multi-class log loss of of **2.25674**, which would ideally rank at **#136** (out of 2,335 teams) or at the **top 6th percentile** on the public leaderboard. More details can be found in this notebook: [kaggle-sf-crime-prediction.ipynb](https://github.com/k-chuang/kaggle-sf-crime/blob/master/kaggle-sf-crime-prediction.ipynb)
 
 ## License
 
