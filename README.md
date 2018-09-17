@@ -12,7 +12,7 @@ All Python packages required for this project are located in the [requirements.t
 **Data Exploration & Visualization**
 - [kaggle-sf-crime-exploration.ipynb](https://github.com/k-chuang/kaggle-sf-crime/blob/master/kaggle-sf-crime-exploration.ipynb) - jupyter notebook with initial data explorations & visualizations of SF crime
 
-**Data Analysis & Model Building**
+**Data Mining & Machine Learning**
 - [kaggle-sf-crime-project.ipynb](https://github.com/k-chuang/kaggle-sf-crime/blob/master/kaggle-sf-crime-project.ipynb) - jupyter notebook with end to end data science workflow, such as data preprocessing, feature engineering, building baseline models, model selection, hyperparameter tuning, and Kaggle submission.
 
 ## Dataset
