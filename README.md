@@ -15,6 +15,9 @@ All Python packages required for this project are located in the [requirements.t
 **Data Mining & Machine Learning**
 - [kaggle-sf-crime-project.ipynb](https://github.com/k-chuang/kaggle-sf-crime/blob/master/kaggle-sf-crime-project.ipynb) - jupyter notebook with end to end data science workflow, such as data preprocessing, feature engineering, building baseline models, model selection, hyperparameter tuning, and Kaggle submission.
 
+**Hyperparameter Tuning Results**
+- [cv_results](https://github.com/k-chuang/kaggle-sf-crime/blob/master/cv_results) - folder containing the hyperparameter tuning results (CV scores (mean & standard deviation) and hyperparameters) at each iteration of Bayesian Optimization.
+
 ## Dataset
 Dataset contains incidents derived from SFPD Crime Incident Reporting system. The data ranges from **1/1/2003 to 5/13/2015** (~12 years worth of data). The training set and test set rotate every week, meaning week 1,3,5,7,... belong to test set, week 2,4,6,8,... belong to training set.
 
@@ -32,3 +35,7 @@ Dataset contains incidents derived from SFPD Crime Incident Reporting system. Th
 The source of the dataset can be found in the following links:
 - [Kaggle Source](https://www.kaggle.com/c/sf-crime/data)
 - [Original Source](https://data.sfgov.org/Public-Safety/-Change-Notice-Police-Department-Incidents/tmnf-yvry/about)
+
+## License
+
+See the [LICENSE](https://github.com/k-chuang/kaggle-sf-crime/blob/master/LICENSE) file for license rights and limitations (MIT).
