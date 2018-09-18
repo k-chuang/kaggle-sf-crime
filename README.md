@@ -17,6 +17,11 @@ $ pip install -r requirements.txt
 **Data Mining & Machine Learning**
 - [kaggle-sf-crime-prediction.ipynb](https://github.com/k-chuang/kaggle-sf-crime/blob/master/kaggle-sf-crime-prediction.ipynb) - jupyter notebook with end to end data science workflow, such as data preprocessing, feature engineering, building baseline models, model selection, hyperparameter tuning, and Kaggle submission.
 
+## Folders
+
+**Data Visualizations**
+- [visualizations](https://github.com/k-chuang/kaggle-sf-crime/blob/master/visualizations) - folder containing visualizations of the data (barplots, scatterplots, heatmaps, maps, etc.)
+
 **Hyperparameter Tuning Results**
 - [cv_results](https://github.com/k-chuang/kaggle-sf-crime/blob/master/cv_results) - folder containing the hyperparameter tuning results (CV scores (mean & standard deviation) and hyperparameters) at each iteration of Bayesian Optimization.
 
@@ -37,6 +42,16 @@ Dataset contains incidents derived from SFPD Crime Incident Reporting system. Th
 The source of the dataset can be found in the following links:
 - [Kaggle Source](https://www.kaggle.com/c/sf-crime/data)
 - [Original Source](https://data.sfgov.org/Public-Safety/-Change-Notice-Police-Department-Incidents/tmnf-yvry/about)
+
+## Visualizations
+
+Some visualizations of the spatial and temporal features along with category of crime.
+
+#### Heatmap of SF police district given category of crime
+![](visualizations/PdDistrict_per_crime_category_heatmap.png?raw=true)
+
+#### Lineplot of year given category of Crime
+![](visualizations/Year.png?raw=true)
 
 ## Kaggle Submission
 
