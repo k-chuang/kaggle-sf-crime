@@ -55,7 +55,7 @@ Some visualizations of the spatial and temporal features along with category of 
 
 ## Kaggle Submission
 
-Achieved a multi-class log loss of of **2.25674**, which would ideally rank at **#136** (out of 2,335 teams) or at the **top 6th percentile** on the public leaderboard. More details can be found in this notebook: [kaggle-sf-crime-prediction.ipynb](https://github.com/k-chuang/kaggle-sf-crime/blob/master/kaggle-sf-crime-prediction.ipynb)
+Achieved a multi-class log loss of of **2.25674**, which would ideally rank at **#136** (out of 2,335 teams) or at the **top 6%** or **94th percentile** on the public leaderboard. More details can be found in this notebook: [kaggle-sf-crime-prediction.ipynb](https://github.com/k-chuang/kaggle-sf-crime/blob/master/kaggle-sf-crime-prediction.ipynb)
 
 ## License
 
